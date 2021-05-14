@@ -18,6 +18,7 @@ body{
      padding-bottom: 20.7%; 
      background-color: rgb(26, 25, 27);  
 }
+
 .sidebox1{
     width: 50%;
     /* border: 1px solid rgb(230, 7, 144); */
@@ -25,10 +26,11 @@ body{
     margin-left: 30%;
     margin-top: 15%;
     background-image: url(img1.png);
-    background-size:100%;
-    
-    
-    
+    background-size:100%;  
+}
+.sidebox1:hover{
+    color: rgb(241, 238, 235);
+    cursor: pointer;
 }
 .sidebox2{
     width: 90%;
@@ -45,23 +47,35 @@ body{
     margin-left: -10%;
     list-style-type: none;
 }
+
 .sidebox li:nth-child(1){
     background-image: url(img2.png);
     background-size: 100%;
+}
+.sidebox li:nth-child(1):hover{
+    cursor: pointer;
 }
 .sidebox li:nth-child(2){
     background-image: url(img3.png);
     background-size: 100%;
 }
+.sidebox li:nth-child(2):hover{
+    cursor: pointer;
+}
 .sidebox li:nth-child(3){
     background-image: url(img4.png);
     background-size: 100%;
+}
+.sidebox li:nth-child(3):hover{
+    cursor: pointer;
 }
 .sidebox li:nth-child(4){
     background-image: url(img5.png);
     background-size: 100%;
 }
-
+.sidebox li:nth-child(4):hover{
+    cursor: pointer;
+}
 
 
 .rightbox{
@@ -101,6 +115,9 @@ body{
     background-size: 100%;
     
 }
+.box2:hover{
+    cursor: pointer;
+}
 .box3{
     float: right;
     width: 55%;
@@ -109,7 +126,9 @@ body{
     background-image: url(img7.png);
     background-size: cover;
     background-repeat: no-repeat;
-   
+}
+.box3:hover{
+    cursor: pointer;
 }
 .middlebox2{
 float: right;
@@ -136,7 +155,9 @@ padding-bottom:1%;
     background-image: url(img8.png);
     background-size: cover;
     background-repeat: no-repeat;
-  
+}
+.box5:hover{
+    cursor: pointer;
 }
 .box6{
     float: right;
@@ -145,6 +166,9 @@ padding-bottom:1%;
     background-image: url(img9.png);
     background-size: cover;
     background-repeat: no-repeat; 
+}
+.box6:hover{
+    cursor: pointer;
 }
 .box7{
     float: right;
@@ -155,6 +179,9 @@ padding-bottom:1%;
     background-image: url(img10.png);
     background-size: cover;
     background-repeat: no-repeat; 
+}
+.box7:hover{
+    cursor: pointer;
 }
 
 
@@ -199,18 +226,28 @@ padding-bottom:1%;
     background-image: url(img11.png);
     background-size:100%;
     background-repeat: no-repeat;
-
+}
+.box8 ul li:nth-child(1):hover{
+    cursor: pointer;
 }
 .box8 ul li:nth-child(2){
     background-image: url(img14.png);
     background-size:cover;
     background-repeat: no-repeat;
 }
+.box8 ul li:nth-child(2):hover{
+    cursor: pointer;
+}
+
 .box8 ul li:nth-child(3){
     background-image: url(img18.png);
     background-size:cover;
     background-repeat: no-repeat;
 }
+.box8 ul li:nth-child(3):hover{
+    cursor: pointer;
+}
+
 .box8 ul li:nth-child(4){
     padding-bottom: 1%; 
 }
@@ -232,6 +269,9 @@ padding-bottom:1%;
    background-size:cover;
    background-repeat: no-repeat;
 }
+.libox:hover{
+    cursor: pointer;
+}
 .libox1{
     width:81%;
     padding-bottom:30% ;
@@ -240,6 +280,9 @@ padding-bottom:1%;
     background-image: url(img13.png);
     background-size:cover;
     background-repeat: no-repeat;
+}
+.libox1:hover{
+    cursor: pointer;
 }
 .A1{
     width: 15%;
@@ -252,6 +295,9 @@ padding-bottom:1%;
     background-size:cover;
     background-repeat: no-repeat;
 }
+.A1:hover{
+    cursor: pointer;
+}
 .A2{
     width:81%;
     padding-bottom:30% ;
@@ -260,6 +306,9 @@ padding-bottom:1%;
     background-image: url(img17.png);
     background-size:cover;
     background-repeat: no-repeat;
+}
+.A2:hover{
+    cursor: pointer;
 }
 .B1{
     width: 15%;
@@ -272,6 +321,10 @@ padding-bottom:1%;
     background-size:cover;
     background-repeat: no-repeat;  
 }
+.B1:hover{
+    cursor: pointer;
+}
+
 .B2{
     width:81%;
     padding-bottom:30% ;
@@ -280,6 +333,9 @@ padding-bottom:1%;
     background-image: url(img20.png);
     background-size:cover;
     background-repeat: no-repeat;
+}
+.B2:hover{
+    cursor: pointer;
 }
 
 
@@ -316,16 +372,26 @@ padding-bottom:1%;
     background-size:cover;
     background-repeat: no-repeat;
 }
+.box9 ul li:nth-child(1):hover{
+    cursor: pointer;
+}
+
 .box9 ul li:nth-child(2){
     background-image: url(img24.png);
     background-size:cover;
     background-repeat: no-repeat;
+}
+.box9 ul li:nth-child(2):hover{
+    cursor: pointer;
 }
 
 .box9 ul li:nth-child(3){
     background-image: url(img27.png);
     background-size:cover;
     background-repeat: no-repeat;
+}
+.box9 ul li:nth-child(3):hover{
+    cursor: pointer;
 }
 
 .box9 ul li:nth-child(4){
@@ -349,6 +415,7 @@ padding-bottom:1%;
     background-size:cover;
     background-repeat: no-repeat;
 }
+
 .C2{
     width:81%;
     padding-bottom:30% ;
